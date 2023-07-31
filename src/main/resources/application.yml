@@ -1,0 +1,9 @@
+spring:
+  port: 8080
+  datasource:
+    generate-unique-name: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
